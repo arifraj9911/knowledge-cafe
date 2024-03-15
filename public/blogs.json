@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "cover_img": "https://i.ibb.co/fYdsZfp/cover-1.jpg",
+        "title": "the art of simplicity",
+        "author": "john doe",
+        "author_img": "https://i.ibb.co/ScHFk1x/athor-1.jpg",
+        "posted_date": "2024-03-15",
+        "hashtag": [
+            "#simplicity",
+            "#art"
+        ],
+        "reading_time": "10 minutes"
+    },
+    {
+        "id": 2,
+        "cover_img": "https://i.ibb.co/nmMBdNR/cover-2.jpg",
+        "title": "the power of habit",
+        "author": "jane smith",
+        "author_img": "https://i.ibb.co/y04DXkD/autor-2.jpg",
+        "posted_date": "2024-03-14",
+        "hashtag": [
+            "#habit",
+            "#power"
+        ],
+        "reading_time": "15 minutes"
+    },
+    {
+        "id": 3,
+        "cover_img": "https://i.ibb.co/JyNHwhp/cover-3.jpg",
+        "title": "the joy of coding",
+        "author": "alex brown",
+        "author_img": "https://i.ibb.co/ScHFk1x/athor-1.jpg",
+        "posted_date": "2024-03-13",
+        "hashtag": [
+            "#coding",
+            "#joy"
+        ],
+        "reading_time": "20 minutes"
+    },
+    {
+        "id": 4,
+        "cover_img": "https://i.ibb.co/fr5TmFN/cover-4.jpg",
+        "title": "the mindfulness revolution",
+        "author": "emily jones",
+        "author_img": "https://i.ibb.co/y04DXkD/autor-2.jpg",
+        "posted_date": "2024-03-12",
+        "hashtag": [
+            "#mindfulness",
+            "#revolution"
+        ],
+        "reading_time": "25 minutes"
+    },
+    {
+        "id": 5,
+        "cover_img": "https://i.ibb.co/n0SwKXd/cover-5.jpg",
+        "title": "the art of storytelling",
+        "author": "michael smith",
+        "author_img": "https://i.ibb.co/ScHFk1x/athor-1.jpg",
+        "posted_date": "2024-03-11",
+        "hashtag": [
+            "#storytelling",
+            "#art"
+        ],
+        "reading_time": "30 minutes"
+    }
+]
