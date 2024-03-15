@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import author_image from '../../assets/Images/boy1.png';
 import { FaRegBookmark } from "react-icons/fa6";
-const Blog = ({blog,handleBookmarks}) => {
+const Blog = ({blog,handleBookmarks,handleMarksRead}) => {
     const {title,cover_img,author,posted_date,hashtag,reading_time} = blog;
     return (
         <div className=''>
@@ -25,6 +25,7 @@ const Blog = ({blog,handleBookmarks}) => {
             {
                 hashtag.map((hash,idx)=><span key={idx} ><p>{hash}</p></span>)
             }   
+            <button className='text-blue-500 underline' onClick={()=>handleMarksRead(reading_time)}>Marks as Read</button>
             <hr className='mt-4' />
 
         </div>
