@@ -2,7 +2,7 @@
 import author_image from '../../assets/Images/boy1.png';
 import { FaRegBookmark } from "react-icons/fa6";
 const Blog = ({blog,handleBookmarks,handleMarksRead}) => {
-    const {title,cover_img,author,posted_date,hashtag,reading_time} = blog;
+    const {id,title,cover_img,author,posted_date,hashtag,reading_time} = blog;
     return (
         <div className=''>
             <img className='rounded-xl' src={cover_img} alt="" />
@@ -25,7 +25,7 @@ const Blog = ({blog,handleBookmarks,handleMarksRead}) => {
             {
                 hashtag.map((hash,idx)=><span key={idx} ><p>{hash}</p></span>)
             }   
-            <button className='text-blue-500 underline' onClick={()=>handleMarksRead(reading_time)}>Marks as Read</button>
+            <button className='text-blue-500 underline' onClick={()=>handleMarksRead(id,reading_time)}>Marks as Read</button>
             <hr className='mt-4' />
 
         </div>
